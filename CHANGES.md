@@ -1,11 +1,11 @@
 # Release Notes
 
 ## Version 2.1
-
+- `CSV Name Template Update` updated the CSV template to include OrgName and Orginfo [Issue #1250](https://github.com/tprouvot/Salesforce-Inspector-reloaded/issues/1250) (contribution by [Divyanshu Bist](https://github.com/DivyanshuBist))
 - `Metadata` Add 'Run Relevant Tests' option to metadata deploy Test Level picklist [feature 1286](https://github.com/tprouvot/Salesforce-Inspector-reloaded/issues/1286)
 - `Popup` Fix language flag icons for Catalan and Basque on the Users tab [issue #1196](https://github.com/tprouvot/Salesforce-Inspector-reloaded/issues/1196)
 - `Custom Shortcuts` Add "Global" toggle to share a shortcut across all orgs instead of keeping it specific to the current org [feature 191](https://github.com/tprouvot/Salesforce-Inspector-reloaded/issues/191)
-- `Typo Fix` Fix Dependencies Explorer Typo  [issue #1276](https://github.com/tprouvot/Salesforce-Inspector-reloaded/issues/1276) (contribution by [Divyanshu Bist](https://github.com/DivyanshuBist)
+- `Typo Fix` Fix Dependencies Explorer Typo  [issue #1276](https://github.com/tprouvot/Salesforce-Inspector-reloaded/issues/1276) (contribution by [Divyanshu Bist](https://github.com/DivyanshuBist))
 - `Popup` Add search prefixes to speed up Shortcut tab queries: `/` for setup links only, `!` for metadata, and typed filters (`!flow`, `!profile`, `!class`, `!perm`) [feature 1265](https://github.com/tprouvot/Salesforce-Inspector-reloaded/issues/1265)
 - `Data Export` Fixed Field Suggestions label visibility [issue #1255](https://github.com/tprouvot/Salesforce-Inspector-reloaded/issues/1255) (contribution by [Prem Kumar](https://github.com/prem-k-r))
 - `Popup` Fixed search icon spacing on the Objects, Shortcuts, and Users tabs [#1227](https://github.com/tprouvot/Salesforce-Inspector-reloaded/pull/1227) (contribution by [Prem Kumar](https://github.com/prem-k-r))
