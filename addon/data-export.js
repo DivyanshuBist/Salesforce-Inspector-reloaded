@@ -279,7 +279,11 @@ class Model {
   }
   downloadAsCsv(){
     const csvContent = this.exportedData.csvSerialize(this.separator);
-    const filename = `${this.exportedData.records[0]?.attributes.type}-${new Date().toLocaleDateString()}.csv`;
+    const IsSandbox = localStorage.getItem(this.sfHost + "_isSandbox")==="true"?"Sandbox":"Prod";
+    const filename = this.orgName
+    ?`${this.exportedData.records[0]?.attributes.type}-${this.orgName}-${IsSandbox}-${new Date().toLocaleDateString()}.csv`
+    :`${this.exportedData.records[0]?.attributes.type}-${IsSandbox}-${new Date().toLocaleDateString()}.csv`;
+
     downloadCsvFile(csvContent, filename);
   }
   deleteRecords(e) {
